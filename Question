@@ -1,0 +1,11 @@
+class Question:
+    def __init__(self, question_number, question_title , type, status):
+        self.question_number = question_number
+        self.question_title = question_title
+        self.type = type
+        self.status = status
+
+    def __str__(self):
+        return f"{self.question_number}({self.question_title})"
+    
+    
